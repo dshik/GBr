@@ -11,7 +11,7 @@ import Foundation
 print("Hello, World!")
 
 /* Задание 2.1*/
-/* Функция которая определяет четное число или нет*/
+/* Функция которая определяет четное число или нет и такая же для деления на 3*/
 
 func isEvenNumber(intNumber: Int) -> Bool {
     return intNumber%2 == 0
@@ -51,3 +51,26 @@ if isDivisibleBy3(intNumber: intNum4) {
 } else {
     print("\(intNum4) - число не делится на 3.")
 }
+
+/* Задание 3 и 4: создаём массив и удаляем из массива числа, которые делятся на 2 и 3 */
+
+var intArray = [Int]()
+for i in (0...99){
+    intArray.append(i)
+}
+
+var intNewArray = [Int]()
+for element in intArray {
+    if !( isEvenNumber(intNumber: element) || isDivisibleBy3(intNumber: element) ) {
+        
+        intNewArray.append(element)
+        
+        }
+}
+        
+intArray.removeAll()
+intArray = intNewArray
+
+print(intArray)
+
+
