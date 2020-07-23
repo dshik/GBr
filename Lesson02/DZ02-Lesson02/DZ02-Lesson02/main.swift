@@ -17,6 +17,10 @@ func isEvenNumber(intNumber: Int) -> Bool {
     return intNumber%2 == 0
 }
 
+func isDivisibleBy3(intNumber: Int) -> Bool {
+    return intNumber%3 == 0
+}
+
 /*Проверка*/
 let intNum1 = 10
 let intNum2 = 11
@@ -31,4 +35,19 @@ if isEvenNumber(intNumber: intNum2) {
     print("\(intNum2) - чётное число.")
 } else {
     print("\(intNum2) - нечётное число.")
+}
+
+let intNum3 = 12
+let intNum4 = 13
+
+if isDivisibleBy3(intNumber: intNum3) {
+    print("\(intNum3) - число делится на 3.")
+} else {
+    print("\(intNum3) - число не делится на 3.")
+}
+
+if isDivisibleBy3(intNumber: intNum4) {
+    print("\(intNum4) - число делится на 3.")
+} else {
+    print("\(intNum4) - число не делится на 3.")
 }
