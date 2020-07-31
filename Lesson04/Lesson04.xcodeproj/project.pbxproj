@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F912F02E24D1F22A00A4C8CF /* CarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912F02D24D1F22A00A4C8CF /* CarClass.swift */; };
+		F912F03024D2C9FD00A4C8CF /* SportCarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912F02F24D2C9FD00A4C8CF /* SportCarClass.swift */; };
+		F912F03224D2CA8600A4C8CF /* TrunkCarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912F03124D2CA8600A4C8CF /* TrunkCarClass.swift */; };
 		F9464C5B24D1E8B800823EE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9464C5A24D1E8B800823EE7 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F912F02D24D1F22A00A4C8CF /* CarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarClass.swift; sourceTree = "<group>"; };
+		F912F02F24D2C9FD00A4C8CF /* SportCarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCarClass.swift; sourceTree = "<group>"; };
+		F912F03124D2CA8600A4C8CF /* TrunkCarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrunkCarClass.swift; sourceTree = "<group>"; };
 		F9464C5724D1E8B800823EE7 /* Lesson04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lesson04; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9464C5A24D1E8B800823EE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				F9464C5A24D1E8B800823EE7 /* main.swift */,
+				F912F02D24D1F22A00A4C8CF /* CarClass.swift */,
+				F912F03124D2CA8600A4C8CF /* TrunkCarClass.swift */,
+				F912F02F24D2C9FD00A4C8CF /* SportCarClass.swift */,
 			);
 			path = Lesson04;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F912F03024D2C9FD00A4C8CF /* SportCarClass.swift in Sources */,
 				F9464C5B24D1E8B800823EE7 /* main.swift in Sources */,
+				F912F03224D2CA8600A4C8CF /* TrunkCarClass.swift in Sources */,
+				F912F02E24D1F22A00A4C8CF /* CarClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
