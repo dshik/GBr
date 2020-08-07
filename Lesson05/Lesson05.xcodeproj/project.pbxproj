@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F92ABA5324D6C10D00650921 /* CarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92ABA5224D6C10D00650921 /* CarProtocol.swift */; };
+		F92ABA5524D7473A00650921 /* SportCarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92ABA5424D7473A00650921 /* SportCarClass.swift */; };
+		F92ABA5724D747BF00650921 /* TruckClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92ABA5624D747BF00650921 /* TruckClass.swift */; };
+		F9A1713624D8AABC00E2BDDF /* CarCommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1713524D8AABC00E2BDDF /* CarCommonClass.swift */; };
 		F9C6D5B624D6BB0700374350 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C6D5B524D6BB0700374350 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F92ABA5224D6C10D00650921 /* CarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProtocol.swift; sourceTree = "<group>"; };
+		F92ABA5424D7473A00650921 /* SportCarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCarClass.swift; sourceTree = "<group>"; };
+		F92ABA5624D747BF00650921 /* TruckClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckClass.swift; sourceTree = "<group>"; };
+		F9A1713524D8AABC00E2BDDF /* CarCommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCommonClass.swift; sourceTree = "<group>"; };
 		F9C6D5B224D6BB0600374350 /* Lesson05 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lesson05; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C6D5B524D6BB0700374350 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				F9C6D5B524D6BB0700374350 /* main.swift */,
+				F92ABA5224D6C10D00650921 /* CarProtocol.swift */,
+				F9A1713524D8AABC00E2BDDF /* CarCommonClass.swift */,
+				F92ABA5424D7473A00650921 /* SportCarClass.swift */,
+				F92ABA5624D747BF00650921 /* TruckClass.swift */,
 			);
 			path = Lesson05;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92ABA5524D7473A00650921 /* SportCarClass.swift in Sources */,
+				F92ABA5324D6C10D00650921 /* CarProtocol.swift in Sources */,
+				F92ABA5724D747BF00650921 /* TruckClass.swift in Sources */,
+				F9A1713624D8AABC00E2BDDF /* CarCommonClass.swift in Sources */,
 				F9C6D5B624D6BB0700374350 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
