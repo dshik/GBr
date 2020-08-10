@@ -30,9 +30,10 @@ struct QueueFIFO<T: Carable, CustomStringConvertible> {
     
     mutating func dequeue() -> T? {
         if elements.count > 0 {
-            return elements.remove(at: 0)
+            return elements.removeFirst()
         } else {
             return nil
+            
         }
     }
     
